@@ -26,7 +26,7 @@ export const CountdownTimer = () => {
 
     return (
         <div className="flex gap-4 md:gap-8 justify-center items-center font-sans">
-            {Object.entries(time).map(([label, value]) => (
+            {(Object.entries(time) as [string, number][]).map(([label, value]) => (
                 <div key={label} className="text-center group">
                     <motion.div
                         whileHover={{ scale: 1.1, y: -5 }}
