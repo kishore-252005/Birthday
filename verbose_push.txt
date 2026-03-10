@@ -1,0 +1,5 @@
+Pushing to https://github.com/kishore-252005/Birthday.git
+To https://github.com/kishore-252005/Birthday.git
+ = [up to date]      main -> main
+updating local tracking ref 'refs/remotes/origin/main'
+Everything up-to-date

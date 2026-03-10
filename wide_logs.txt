@@ -1,0 +1,30 @@
+561f7a3 FINAL_COMMIT
+last_commit2.txt
+show_commit.txt
+status3.txt
+8094ec0 final_update
+commit_err2.txt
+commit_out2.txt
+7ccc491 Update
+last_commit.txt
+cf00030 Update
+branch.txt
+commit_out.txt
+public/images/image1.jpeg
+public/images/image2.jpeg
+public/images/image3.jpeg
+public/images/image4.jpeg
+public/images/image5.jpeg
+public/images/image6.jpeg
+public/images/image7.jpeg
+public/images/image8.jpeg
+server_log.txt
+src/App.tsx
+src/components/PhotoGallery.tsx
+status.txt
+vite.config.ts
+23686ce Feature: Added gift box opening animation and paper-style letter effect
+src/App.tsx
+src/components/GiftBox.tsx
+src/components/Modal.tsx
+test_output.txt
