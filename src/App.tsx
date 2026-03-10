@@ -219,7 +219,7 @@ export default function App() {
                   >
                     <TypingText
                       className="font-script text-pink-100 italic font-black text-2xl md:text-5xl leading-tight"
-                      text="Thangachi... you are a piece of my heart that resides in another soul. Your presence is like a warm sunlight on a winter morning. This platform is just a small reflection of our eternal bond. May your birthday be as legendary as you are!"
+                      text="Dear Bharathi... you are a piece of my heart that resides in another soul. Your presence is like a warm sunlight on a winter morning. This platform is just a small reflection of our eternal bond. May your birthday be as legendary as you are!"
                     />
                   </motion.div>
                   <div className="absolute -bottom-10 -right-6 md:-bottom-20 md:-right-20 opacity-10 text-pink-500 rotate-180 overflow-hidden">
@@ -227,9 +227,7 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="mt-20">
-                  <CountdownTimer />
-                </div>
+
               </section>
             </ParallaxSection>
 
@@ -261,7 +259,7 @@ export default function App() {
                     "The way you carry yourself with kindness and strength is nothing short of royalty."
                   </InteractiveCard>
                   <InteractiveCard icon={Zap} title="Electric Energy" delay={0.2}>
-                    "Your vibe is infectious. You bring energy and life wherever you go, Thangachi!"
+                    "Your vibe is infectious. You bring energy and life wherever you go, ma!"
                   </InteractiveCard>
                   <InteractiveCard icon={StarsIcon} title="Guiding Star" delay={0.3}>
                     "In my dark moments, you've always been the star that showed me the way. Thank you."
@@ -309,7 +307,7 @@ export default function App() {
                   className="space-y-12 md:space-y-20 px-4"
                 >
                   <h2 className="text-3xl md:text-[8rem] font-black font-cute text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-white to-mystic animate-gradient drop-shadow-2xl italic leading-tight break-words">
-                    Happieee Birthday Thangachi, Always your Anna
+                    Happieee Birthday Thangachi, Always there for you
                   </h2>
                   <div className="flex justify-center gap-8 md:gap-16 items-center">
                     <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 8, ease: "linear" }}>
@@ -350,7 +348,7 @@ export default function App() {
           </h2>
           <div className="space-y-6 md:space-y-10 text-left font-sans text-lg md:text-2xl leading-relaxed max-h-[50vh] overflow-auto px-4 md:px-10 custom-scrollbar hide-scrollbar">
             <p className="border-l-4 border-pink-700/30 pl-4 md:pl-8 italic">
-              "Thangachi is not just a title; it is a sentiment that transcends bloodlines."
+              "You are npt just a person , For me you are my most Special Person ever."
             </p>
             <p>
               On this extraordinary day, I want you to know how much I cherish our journey.
@@ -367,7 +365,7 @@ export default function App() {
           <div className="pt-10 md:pt-16 border-t border-[#55433c]/10 px-4">
             <p className="font-script text-3xl md:text-5xl text-pink-900">Bound by choice, united by love,</p>
             <p className="font-cute text-2xl md:text-4xl text-[#55433c] mt-4 md:mt-6 font-black uppercase tracking-widest">
-              Your Eternal Anna
+              Your Loving Anna
             </p>
           </div>
         </div>

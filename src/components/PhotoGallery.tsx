@@ -10,11 +10,14 @@ function cn(...inputs: ClassValue[]) {
 
 export const PhotoGallery = () => {
     const photos = [
-        { url: 'https://images.unsplash.com/photo-1530103862676-fa8c913f1d81?q=80&w=1200', caption: 'Your smile lights up the world! ✨' },
-        { url: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=1200', caption: 'The most amazing Thangachi ever. ❤️' },
-        { url: 'https://images.unsplash.com/photo-1464349153735-7db51edc3944?q=80&w=1200', caption: 'Cherishing every laugh we share! 😂' },
-        { url: 'https://images.unsplash.com/photo-1512909006721-3d6018887383?q=80&w=1200', caption: 'A bond that is truly eternal. 🤝' },
-        { url: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=1200', caption: 'Always proud of who you are! 🥂' },
+        { url: '/images/image1.jpeg', caption: 'Your smile lights up the world! ✨' },
+        { url: '/images/image2.jpeg', caption: 'The most amazing sister ever. ❤️' },
+        { url: '/images/image3.jpeg', caption: 'Cherishing every laugh we share! 😂' },
+        { url: '/images/image4.jpeg', caption: 'A bond that is truly eternal. 🤝' },
+        { url: '/images/image5.jpeg', caption: 'Always proud of who you are! 🥂' },
+        { url: '/images/image6.jpeg', caption: 'Every moment with you is a treasure! 🌟' },
+        { url: '/images/image7.jpeg', caption: 'Your happiness is my priority! ❤️' },
+        { url: '/images/image8.jpeg', caption: 'To many more years of joy together! 🥂' },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +39,7 @@ export const PhotoGallery = () => {
                         animate={{ opacity: 1, scale: 1, filter: 'brightness(1) blur(0px)' }}
                         exit={{ opacity: 0, scale: 0.9, filter: 'brightness(0.5) blur(10px)' }}
                         transition={{ duration: 1, ease: [0.43, 0.13, 0.23, 0.96] }}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         referrerPolicy="no-referrer"
                     />
                 </AnimatePresence>

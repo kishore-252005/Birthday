@@ -1,0 +1,28 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   public/images/image1.jpeg
+	new file:   public/images/image2.jpeg
+	new file:   public/images/image3.jpeg
+	new file:   public/images/image4.jpeg
+	new file:   public/images/image5.jpeg
+	new file:   public/images/image6.jpeg
+	modified:   src/components/PhotoGallery.tsx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   src/App.tsx
+	modified:   src/components/PhotoGallery.tsx
+	modified:   vite.config.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	branch.txt
+	public/images/image7.jpeg
+	public/images/image8.jpeg
+	server_log.txt
+	status.txt
+
